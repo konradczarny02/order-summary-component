@@ -86,6 +86,7 @@ body {
     }
     p:last-child {
       color: $gray;
+      font-weight: 500;
     }
   }
 
@@ -100,10 +101,11 @@ body {
     align-items: center;
     margin-left: auto;
     color: $bright-blue;
+    font-weight: 500;
   }
 
   &__payment {
-    margin: 20px 0;
+    margin: 40px 0 0;
     background-color: $bright-blue;
     color: white;
   }
@@ -124,7 +126,7 @@ body {
   border-radius: 10px;
   border: none;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .attribution {
